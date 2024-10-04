@@ -263,7 +263,7 @@ span{
         content: "Graphic Designer";
     }
     41%, 60%{
-        content: "Web Designer";
+        content: "Website Designer";
     }
     61%, 80%{
         content: "Graphic Designer";
@@ -536,7 +536,8 @@ span {
  .img{
     width: 200px;
     height: 140px;
-    margin-left: 80px;
+    margin-left: 70px;
+     margin-top: centre;
  }
 
  .container{
