@@ -491,27 +491,82 @@ span {
 }
 /* DESIGN */
 
-/* .main{
-   background-color: #000;
-   margin-bottom: 100px;
+.main{
+    background-color: black;
+    width: 100%;
+    height: 100vh;
 }
 .h1{
+    color: white;
+    text-align: center;
     font-size: 30px;
-    color:white;
-   text-align: center;
+    text-decoration: underline;
+}
+.h1 span{
+    color: #9489e5;
 }
 .img{
-    width: 500px;
-    height: 500px;
-    margin-right: 800px;
+width: 40rem;
+height: 40rem;
+margin-left: 1rem;
+margin-top: -0.100rem;
+
 }
 .grap{
-    color: white;
-    font-size: 40px;
-    margin-top: -480px;
-    margin-left: 370px;
-    
-} */
+color: white;
+margin-left: 27rem;
+margin-top: -40rem;
+font-size: 40px;
+}
+.p{
+font-size: 40px;
+margin-left: 700px;
+color: white;
+}
+
+.btn-2 {
+background:#9489e5;
+background: linear-gradient(0deg, #9489e5 0%, #9489e5 100%);
+border: none;
+margin-left: 850px;
+width: 100px;
+height: 40px;
+
+}
+.btn-2:before {
+height: 0%;
+width: 2px;
+}
+.btn-2:hover {
+box-shadow:  4px 4px 6px 0#9489e5,
+        -4px -4px 6px 0 #9489e5, 
+inset -4px -4px 6px 0#9489e5,
+inset 4px 4px 6px 0 #9489e5;
+
+}
+button {
+margin: 20px;
+}
+.custom-btn {
+width: 130px;
+height: 40px;
+color: #fff;
+border-radius: 5px;
+padding: 10px 25px;
+font-family: 'Lato', sans-serif;
+font-weight: 500;
+background: transparent;
+cursor: pointer;
+transition: all 0.3s ease;
+position: relative;
+display: inline-block;
+box-shadow:inset 2px 2px 2px 0px #9489e5,
+7px 7px 20px 0px #9489e5,
+4px 4px 5px 0px white;
+outline: none;
+}
+
+
 
 
 
