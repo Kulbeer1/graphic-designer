@@ -19,10 +19,12 @@
       rel="stylesheet"
 
     />
+     <link rel="icon" href="Kulbeer.jpg">
+    <link rel="stylesheet" href="r.css" />
+    <link rel="stylesheet" href="jeep.css">
+ <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
-    <link rel="stylesheet" href="c.css" />
-
-    <title>KS </title>
+ <title>KS </title>
 
   </head>
 
@@ -59,38 +61,71 @@
       <a href="#contact" class="btn btn__large">Contact</a>
 
     </nav>
+ <section>
 
-    <header class="section__container header__container" id="home">
+        <div class="content">
 
-      <div class="header__image">
+            <div class="main-content">
 
-        <img src="kulbeer.png" alt="header" />
+                <h1 data-aos="fade-right" data-aos-duration="1500">Hi! I Am</h1>
 
-      </div>
+                <span data-aos="fade-left" data-aos-duration="1500" data-aos-delay="200">Kulbeer Singh</span>
 
-      <div class="header__content">
+                <p data-aos="flip-up" data-aos-duration="1500" data-aos-delay="400">Note - Gaphic Designer </p>
 
-        <div class="headerh1">
+                <div class="buttons">
 
-          <h1>Kulbeer Singh</h1>
+                    <button data-aos="zoom-in" data-aos-duration="1500" data-aos-delay="600">Desgns</button>
+
+                    <button data-aos="zoom-in" data-aos-duration="1500" data-aos-delay="600">Services</button>
+
+                </div>
+
+            </div>
+
+            <div class="image">
+
+                <img src="Kulbeer.png" data-aos="zoom-out" data-aos-duration="2000">
+
+            </div>
 
         </div>
 
-        <p class="section__description">
+    </section>
+     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+       <script>
 
-          All Designs Types of Solution
+      AOS.init({offset:1});
 
-        </p>
+    </script>
 
-        <div class="header__btn">
+    <script>
 
-          <button class="btn"><a href="#about">Scroll Down 👇</a></button>
+        const hamburg = document.querySelector('.hamburg')
 
-        </div>
+        const cancel = document.querySelector('.cancel')
 
-      </div>
+        const navbar = document.querySelector('.dropmenu');
 
-    </header>
+        
+
+        hamburg.addEventListener('click', ()=>{
+
+            navbar.style.transform = "translateY(0px)"
+
+            hamburg.style.display = 'none'
+
+        })
+
+        cancel.addEventListener('click', ()=>{
+
+            navbar.style.transform = "translateY(-300px)"
+
+            hamburg.style.display = 'block'
+
+        })
+
+    </script>
 
 
 
@@ -98,7 +133,7 @@
 
       <div class="about__image">
 
-        <img src="FB_IMG_1743677293276.jpg" alt="bg" class="about__bg-1" />
+        <img src="Kulbeer.png" alt="bg" class="about__bg-1" />
 
         <img src="FB_IMG_1743677293276.jpg" alt="bg" class="about__bg-2" />
 
@@ -108,7 +143,7 @@
 
       <div class="about__content">
 
-        <h2 class="section__header">Bit About Me</h2>
+        <h2 class="section__header">About Me</h2>
 
         <p class="section__description">
 
@@ -147,7 +182,8 @@ and strategic visuals. I believe in the power of design to connect, inspire, and
           <h4>Website Design</h4>
 
           <p>
-
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Ratione temporibus numquam, velit placeat reprehenderit sequi voluptatibus culpa, necessitatibus perspiciatis 
+odit quia totam? Veritatis exercitationem quo repudiandae voluptates consequatur fuga aut.
           
 
           </p>
@@ -186,9 +222,9 @@ logo creation, branding, brochures, and digital illustrations.
 
         </div>
 
-        <div class="">
+        <div class="service__card">
 
-          <span><i class="ri-share-fill"></i></span>
+          <span><i class=""></i></span>
 
           <h4>DDEO</h4>
 
@@ -239,136 +275,47 @@ logo creation, branding, brochures, and digital illustrations.
     </section>
 
 
-
-    <section class="section__container portfolio__container" id="portfolio">
-
-      <h2 class="section__header">My Portfolio</h2>
-
-      <p class="section__description">
-
-        Explore a showcase of my diverse projects, demonstrating my skills in
-
-        web development, design, and beyond. Each project reflects my passion
-
-        for creating impactful and innovative digital experiences.
-
-      </p>
-
-      <div class="portfolio__grid">
-
-        <div class="portfolio__card">
-
-          <img src="a.jpg" alt="portfolio" />
-
-        </div>
-
-        <div class="portfolio__card">
-
-          <img src="boat-on-ear-headphones-isolated-260nw-1540423925.jpg" alt="portfolio" />
-
-        </div>
-
-        <div class="portfolio__card">
-
-          <img src="a.jpg" alt="portfolio" />
-
-        </div>
-
-        <div class="portfolio__card">
-
-          <img src=".c.jpg" alt="portfolio" />
-
-        </div>
-
-        <div class="portfolio__card">
-
-          <img src=".b.jpg" alt="portfolio" />
-
-        </div>
-
-        <div class="portfolio__card">
-
-          <img src="a.jpg" alt="portfolio" />
-
-        </div>
-
-      </div>
-
-      <div class="portfolio__banner">
-
-        <div class="portfolio__banner__card">
-
-          <span><i class="ri-macbook-line"></i></span>
-
-          <h4>150+ Projects</h4>
-
-          <p>Delivered</p>
-
-        </div>
-
-        <div class="portfolio__banner__card">
-
-          <span><i class="ri-discuss-line"></i></span>
-
-          <h4>1500+ Happy</h4>
-
-          <p>Customers</p>
-
-        </div>
-
-        <div class="portfolio__banner__card">
-
-          <span><i class="ri-heart-fill"></i></span>
-
-          <h4>2700+ Lovely</h4>
-
-          <p>Feedbacks</p>
-
-        </div>
-
-      </div>
-
-    </section>
-
-
-
-    <section class="section__container contact__container" id="contact">
-
-      <div class="logo">M</div>
-
-      <h2 class="section__header">Let's Talk With Me!</h2>
-
-      <p class="section__description">
-
-        An open invitation to connect, and exploring collaborative opportunities
-
-        on my personal portfolio website.
-
-      </p>
-
-      <div class="contact__socials">
-
-        <a href="#"><i class="ri-twitter-fill"></i></a>
-
-        <a href="#"><i class="ri-linkedin-fill"></i></a>
-
-        <a href="#"><i class="ri-behance-fill"></i></a>
-
-        <a href="#"><i class="ri-dribbble-line"></i></a>
-
-        <a href="#"><i class="ri-pinterest-line"></i></a>
-
-      </div>
-
-    </section>
-
-    <footer class="footer">
-
-      Copyright © 2025 Kulbeer Singh. All rights reserved.
-
-    </footer>
-
-
+<section class="designs" id="portfolio">
+  <h1>Portfolio</h1>
+<div class="section__container designs__container">
+<div class="designs__image designs__image-1" id="about">
+  <img src="jeep1.jpg" alt="designs" />
+</div>
+<div class="designs__content designs__content-1">
+  <h3 class="section__subheader">Graphic Designs</h3>
+  <h2 class="section__header"></h2>
+ <p>The Thar was designed to be a rugged, reliable, and affordable off-road 
+    vehicle that could handle the rough terrain found in many parts of India.
+    Its design is based on the iconic Jeep CJ series, which Mahindra had been 
+    producing under license since the 1940s.</p>
+<div class="designs__btn">
+ <a href="#">
+  Read more
+  <span><i class="ri-arrow-right-line"></i></span>
+ </a>
+</div>
+</div>
+<div class="designs__image about__image-2" id="safety">
+  <img src="jeep2.jpg" alt="designs" />
+</div>
+<div class="designs__content designs__content-2">
+  <h3 class="section__subheader">Website Dolvent</h3>
+  <h2 class="section__header"></h2>
+ <p>I have found it to be quite composed safe even at 115 km/h and have 
+    adopted that as my standard Thar cruising speed on the brilliant TN 
+    highways after a few initial months of staying at 100-105 kph.</p>
+<div class="designs__btn">
+ <a href="#">
+  Read more
+  <span><i class="ri-arrow-right-line"></i></span>
+ </a>
+</div>
+</div>
+</div>
+</div>
+</section>
+
+   
 
     <script src="https://unpkg.com/scrollreveal"></script>
 
