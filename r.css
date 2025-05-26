@@ -985,7 +985,7 @@ margin-left:50px;
     align-items: center;
     gap: 10px;
     color:  var(--secondary-color) ;
-    margin-left:150px;
+    margin-left:100px;
   }
   .designs__content a span {
     transition: 0.3s;
